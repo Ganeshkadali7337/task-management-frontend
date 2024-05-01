@@ -1,0 +1,32 @@
+.nav-container {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  position: fixed;
+  top: 0;
+}
+.logo {
+  margin-left: 15px;
+}
+.logout-button {
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 33px;
+  background-color: white;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.log-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

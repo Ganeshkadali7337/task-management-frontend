@@ -1,0 +1,85 @@
+.task-card-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 15px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  font-size: 12px;
+}
+
+.para4 {
+  font-size: 9px;
+}
+
+.Pending {
+  color: red;
+}
+.Completed {
+  color: green;
+}
+.InProgress {
+  color: orange;
+}
+.dot {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.para3 {
+  padding-top: 0px;
+  font-size: 12px;
+  margin: 0px;
+}
+.status-containner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.delete-task-btn {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 100px;
+  margin-bottom: 6px;
+  align-self: flex-end;
+  margin-top: 8px;
+}
+.select {
+  background: none;
+  font-size: 12px;
+  height: 22px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+@media (min-width: 768px) {
+  .para3 {
+    font-size: 15px;
+  }
+  .para4 {
+    font-size: 11px;
+  }
+  .dot {
+    font-size: 16px;
+  }
+  .select {
+    margin-bottom: 8px;
+  }
+}
