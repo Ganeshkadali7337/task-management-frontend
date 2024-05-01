@@ -8,7 +8,7 @@
 
     user can select the role if he wants to assign the tasks he can click "Admin" or if he wants to login as user to see the tasks assigned to him by clicking "User"
 
-### Admin Begistration Route /admin/registration:
+### Admin Registration Route /admin/registration:
 
     admin can register by giving some data "user name, password, confirm password" as Admin if he is new Admin
 
